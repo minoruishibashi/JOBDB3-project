@@ -21,37 +21,36 @@
 </header>
 
 <main>
+    <form action="#" method="POST">
+        <section id="contact">
+                <dl>
+                    <div class="contactflex">
+                        <div class="contactleft">
+                            <dt>お名前</dt>
+                            <dd><input type="text" name="name"></dd>
+                            <dt>emailアドレス</dt>
+                            <dd><input type="email" name="email" id="email"></dd>
+                            <dt>お問い合わせ内容</dt>
+                            <dd>
+                                <label for="method"><input type="radio" name="kind" id="method" value="判定メソッド関係">判定メソッド関係</label>
+                                <label for="schedule"><input type="radio" name="kind" id="schedule" value="スケジュール関係">スケジュール関係</label>
+                                <label for="other"><input type="radio" name="kind" id="other" value="その他">その他</label>
+                            </dd>
+                        </div>
+                        <div class="contactright">
+                            <dt>お問い合わせ詳細</dt>
+                            <dd>
+                                <textarea name="detail" id="detail" cols="40" rows="6"></textarea>
+                            </dd>
+                        </div>
+                        <div class="sendbtn">
+                            <input type="submit" value="お問い合わせ送信">
+                        </div>
+                    </div>
+                </dl>
+        </section>
+    </form>
 
-    <section id="contact">
-        <form action="#" method="POST">
-            <dl>
-                <div class="contactflex">
-                    <div class="contactleft">
-                        <dt>お名前</dt>
-                        <dd><input type="text" name="name"></dd>
-                        <dt>emailアドレス</dt>
-                        <dd><input type="email" name="email" id="email"></dd>
-                        <dt>お問い合わせ内容</dt>
-                        <dd>
-                            <label for="method"><input type="radio" name="kind" id="method" value="判定メソッド関係">判定メソッド関係</label>
-                            <label for="schedule"><input type="radio" name="kind" id="schedule" value="スケジュール関係">スケジュール関係</label>
-                            <label for="other"><input type="radio" name="kind" id="other" value="その他">その他</label>
-                        </dd>
-                    </div>
-                    <div class="contactright">
-                        <dt>お問い合わせ詳細</dt>
-                        <dd>
-                            <textarea name="detail" id="detail" cols="40" rows="6"></textarea>
-                        </dd>
-                    </div>
-                    <div class="sendbtn">
-                        <input type="submit" value="お問い合わせ送信">
-                    </div>
-                </div>
-            </dl>
-           
-        </form>
-    </section>
     <div class="home">
         <a href="Muta_home.html">HOME</a> 
     </div>
