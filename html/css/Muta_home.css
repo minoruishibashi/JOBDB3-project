@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background-image: url(cssimags/pexels-sea.jpg);
+    background-image: url(cssimags/Pexel_blue1.jpg);
     background-size: cover;
     font-family: "Open Sans";
     font-size: 1.4rem;
@@ -55,9 +55,19 @@ nav{
     height: auto;
 }
 
+.btn_apply {
+    background-color: transparent;
+    border: none;
+}
+
 .judge {
     max-width: 20%;
     height: auto;
+}
+
+.btn_judge {
+    background-color: transparent;
+    border: none;
 }
 
 .applyname{
