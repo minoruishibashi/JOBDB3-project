@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background-image: url(cssimags/pexels-sea6.jpg);
+    background-image: url(cssimags/Pexels_wood1.jpg);
     background-size: cover;
     font-family: "Open Sans";
     font-size: 1.4rem;
@@ -19,8 +19,16 @@ img {
 header{
     display: flex;
     justify-content: space-between;
+    background-color: #fff;
 }
 
+.pagetitle {
+    text-align: center;
+    margin: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(16, 16, 68);
+}
 nav{
     margin: 15px 15px 0;
     font-size: 20px;
@@ -38,15 +46,8 @@ main {
     text-align: center;
 }
 
-.slidetytle {
-    font-size: 20px;
-    font-weight: bold;
-    color: #660000;
-    padding: 10px;
-}
-
 .slide  {
-    margin: 0 auto;
+    margin: 20px auto;
     border: 1px solid black;
     width: 750px;
     background-color: black;

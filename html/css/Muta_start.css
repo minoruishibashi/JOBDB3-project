@@ -5,26 +5,26 @@ html {
 }
 
 body {
-    background-image: url(cssimags/Pexel_blue2.jpg);
+    background-image: url(cssimags/sunday-steamin.gif);
     background-size: cover;
     font-family: "Open Sans";
     font-size: 1.6rem;
 }
 
-header{
+/* header{
     display: flex;
     justify-content: space-between;
-}
-.start {
+} */
+/* .start {
     position: relative;
-    top: 10px;
+    text-align: center;
+    top: 200px;
     left: 20px;
-}
+} */
 .start p {
-    position: absolute;
-    top: 120px;
-    left: 140px;
+    text-align: center;
     color: #ffff;
+    margin-top: 200px;
     font-size: 50px;
     font-weight: bold;
 }

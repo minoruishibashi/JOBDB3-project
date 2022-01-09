@@ -92,8 +92,14 @@ section {
 .past3 {
     margin: 8px;
 }
+.past3 p {
+    font-weight: bold;
+}
 .future3 {
     margin: 8px;
+}
+.future3 p {
+    font-weight: bold;
 }
 .type {
     margin: 8px;
@@ -105,6 +111,7 @@ section {
     margin: 8px;
 }
 
-.sendbtn {
+.sendbtn :hover {
     text-align: center;
+    font-weight: bold;
 }
