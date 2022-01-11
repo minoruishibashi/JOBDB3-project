@@ -5,29 +5,27 @@ html {
 }
 
 body {
-    background-image: url(cssimags/sunday-steamin.gif);
-    background-size: cover;
+    background-color: #7acbe1;
     font-family: "Open Sans";
     font-size: 1.6rem;
 }
 
-/* header{
-    display: flex;
-    justify-content: space-between;
-} */
-/* .start {
+header{
+    text-align: center;
+
+}
+.start {
     position: relative;
     text-align: center;
-    top: 200px;
-    left: 20px;
-} */
-.start p {
+    margin-top: 100px;
+}
+/* .start p {
     text-align: center;
     color: #ffff;
     margin-top: 200px;
     font-size: 50px;
     font-weight: bold;
-}
+} */
 
 .muta {
     border-radius: 50%;

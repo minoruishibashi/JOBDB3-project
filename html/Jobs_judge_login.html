@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,24 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/Muta_start.css">
+    <link rel="stylesheet" href="css/Jobs_judge_login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
-    <title>Muta-son_start</title>
+    <title>Jobs_judge_login</title>
 </head>
 <body>
 
 <header>
-    <div class="start">
-        <a href="Muta_home.html"><p>START</p></a>
+    <div class="Muta-son">
+        <img src="images/Jobs_HR_login.png" alt="Jobsの文字">
     </div>
-    <!-- <div class="Muta-son">
-        <img src="images/Muta-son.png" alt="Muta-sonの文字">
-    </div> -->
+    <nav>        
+        <a href="Jobs_home.html">HOME</a>  
+    </nav>
 </header>
-    
 
+<main>
+    <input type="button" value="Judge専用のページへアクセスする" onclick="gate();">
 </main>
 
 
@@ -32,8 +34,12 @@
 
 
 <script>
-// alertの表示
-alert("STARTをクリックしてください");
+    // 簡易ログインパスワード制限
+    function gate() {
+        var UserInput = prompt("パスワードは、Jobs_judge:","");
+        location.href = UserInput + ".html";
+    }
+
 
 </script>
 
